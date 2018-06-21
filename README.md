@@ -5,11 +5,11 @@ libgtk2.0-dev libatk1.0-dev libbonoboui2-dev \\\
 libcairo2-dev libx11-dev libxpm-dev libxt-dev python-dev \\\
 python3-dev ruby-dev lua5.1 liblua5.1-dev libperl-dev git libgtk-3-dev
 
-b. Remove vim if you have it already
+b. Remove vim if you have it already \
 sudo apt remove vim vim-runtime gvim
 
-c. Once everything is installed, getting the source is easy.
-cd vim_source
+c. Once everything is installed, getting the source is easy. \
+cd vim_source \
 ./configure --with-features=huge \\\
 --enable-multibyte \\\
  --enable-rubyinterp=yes \\\ 
@@ -148,4 +148,6 @@ sudo cp ~/Downloads/libcxxabi_build/lib/libc++abi.so* /usr/lib/
 ```
 cd /usr/include/c++/5
 ctags -R --c++-kinds=+l+x+p --fields=+iaSl --extra=+q --language-force=c++ -f stdcpp.tags
+
 ```
+添加支持修改MARKDOWN 插件的文本
